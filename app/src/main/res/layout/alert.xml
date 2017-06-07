@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circular="http://schemas.android.com/apk/res-auto"
+    xmlns:seekarc="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/rootEl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.dualcores.swagpoints.SwagPoints
+        xmlns:swagpoints="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:padding="64dp"
+        swagpoints:min="0"
+        swagpoints:max="360"
+        swagpoints:step="1"
+        swagpoints:progressColor="@color/color_progress"
+        swagpoints:progressWidth="12dp"
+        swagpoints:arcColor="@color/colorPrimaryDarkTheme"
+        swagpoints:arcWidth="8dp"
+        swagpoints:textSize="72sp"
+        swagpoints:textColor="@color/colorAccent"
+        swagpoints:indicatorIcon="@drawable/indicator"
+        />
+
+
+</LinearLayout>
