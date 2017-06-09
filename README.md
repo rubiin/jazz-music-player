@@ -1,4 +1,7 @@
 # Jazz music player
+
+Play Store Link: https://play.google.com/store/apps/details?id=rubin.jazz
+
 Jazz is a powerful, elegant and free music player for Android following material UI guideliness from google .A clean music player with a customizable interface.
 A music player easily controllable from the status bar or by hardware buttons on your headset.
 You can sort the tracks by the Title or Artist,browse Folders, as well as change the Equalizer, view Billboard hits and news from within the player browser,
