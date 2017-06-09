@@ -17,6 +17,7 @@ import android.view.Window;
 
 import com.afollestad.appthemeengine.Config;
 import com.afollestad.appthemeengine.util.Util;
+import com.rubin.jazz.R;
 
 /**
  * Created by naman on 02/01/16.
@@ -61,11 +62,12 @@ public class ATEUtils {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 final int color2 = Config.coloredStatusBar(activity, key) ?
-                        Color.TRANSPARENT : Color.BLACK;
+                        activity.getResources().getColor(R.color.colorStatusbar) : Color.BLACK;
                 activity.getWindow().setStatusBarColor(color2);
             }
             if (Config.coloredStatusBar(activity, key))
-                ((DrawerLayout) ((ViewGroup) activity.findViewById(android.R.id.content)).getChildAt(0)).setStatusBarBackgroundColor(getStatusBarColor(color));
+                ((DrawerLayout) ((ViewGroup) activity.findViewById(android.R.id.content))
+                        .getChildAt(0)).setStatusBarBackgroundColor(getStatusBarColor(color));
         } catch (Exception e) {
             e.printStackTrace();
         }
