@@ -12,7 +12,7 @@ in a go, gesture for track switching in a jiffy, 6 different player skins so you
 setting album art as wallpaper, changing track album art, set ringtones.
 As of now, it does not support lyrics download.Also we will be adding lyrics sharing on social sites like facebook, twitter , pinterest. Stay tuned..!!
 
-Key Features-
+## Key Features-
 
 - Tag editing (Change Artist,Track,Album,etc)
 - Set album art as phone wallpaper
